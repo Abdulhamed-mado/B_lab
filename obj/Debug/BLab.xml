@@ -1,0 +1,806 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BLab
+</name>
+</assembly>
+<members>
+<member name="T:BLab.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BLab.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BLab.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet.docpatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet.docpatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet.docpatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSetTableAdapters.docpatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSetTableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1.clinicDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1.clinicRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1.clinicRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1TableAdapters.clinicTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet1TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10.ctransactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10.ctransactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10.ctransactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10TableAdapters.ctransactionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet10TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11.docpatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11.docpatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11.docpatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11TableAdapters.docpatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet11TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2.ctransactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2.ctransactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2.ctransactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2TableAdapters.ctransactionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet2TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3.clossDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3.clossRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3.clossRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3TableAdapters.clossTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet3TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4.cloginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4.cloginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4.cloginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4TableAdapters.cloginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet4TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5.clossDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5.clossRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5.clossRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5TableAdapters.clossTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet5TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6.cpDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6.cpRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6.cpRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6TableAdapters.cpTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet6TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7.profitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7.profitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7.profitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7TableAdapters.profitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet7TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8.clossDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8.clossRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8.clossRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8TableAdapters.clossTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet8TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9.ctransactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9.ctransactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9.ctransactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9TableAdapters.ctransactionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLab.EBADataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(BLab.EBADataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(BLab.EBADataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(BLab.EBADataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLab.EBADataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLab.EBADataSet9TableAdapters.TableAdapterManager.UpdateAll(BLab.EBADataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLab.EBADataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
